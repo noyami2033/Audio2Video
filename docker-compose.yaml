@@ -1,0 +1,7 @@
+services:
+  Audio2Video:
+    image: wawa9000/sadtalker
+    volumes:
+      - .:/mnt
+    working_dir: /mnt
+    entrypoint: bash entry_point.sh
